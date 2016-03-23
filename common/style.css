@@ -1,0 +1,23 @@
+body{
+    margin:0;
+    padding:0;
+    background: url('../resources/img/bus.png') no-repeat;
+    background-size: 100%;
+}
+.coloumnPanel{
+    width:100%;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform:translateX(-50%) translateY(-50%);
+    -webkit-transform:translateX(-50%) translateY(-50%);
+}
+#coloumnPanel6{
+     max-width: 640px;
+}
+#coloumnPanel9{
+     max-width: 840px;
+}
+.clearBoth{
+    clear: both;
+}

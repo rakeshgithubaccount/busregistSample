@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="ISO-8859-1">
+      <title>Bus Reservation System</title>
+      <link href="style/bootstrap.min.css" rel="stylesheet">
+      <link href="common/style.css" rel="stylesheet">
+      <script src="lib/angular.js" type="text/javascript"></script>
+      <script src="lib/angular-animate.js" type="text/javascript"></script>
+      <script src="main/modules.js"></script>
+      <script src="lib/datepickerLib.js" type="text/javascript"></script>
+      <script src="services/searchBuses.js"></script>
+      <script src="views/searchBuses/searchBuses.js"></script>
+      <script src="lib/ui-bootstrap-tpls-1.1.2.js" type="text/javascript"></script>
+      <script src="lib/angular-route.min.js"></script>
+      <script src="routing.js"></script>
+   </head>
+   <body ng-app="myApp" ng-controller="SearchBuses">       
+     <div ng-show="bannerVisibility">  
+       <div id="banner">
+           <img class="img-responsive" src="resources/img/banner.jpg" alt="Chania" width="100%">
+           <br/>
+           <a href="#/searchBuses"><center><button type="button" class="btn btn-success" ng-click="hideBanner()">Start Booking</button></center>
+           </a>
+       </div>
+       
+       </div>
+      <div ng-view></div>
+   </body>
+</html>

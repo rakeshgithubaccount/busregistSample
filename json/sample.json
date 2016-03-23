@@ -1,0 +1,33 @@
+{
+	"listOfBus": [{
+		"name": "abc",
+		"source": "mumbai",
+		"destination": "delhi",
+		"time": "10.30AM",
+		"seatsAvail": "5"
+	}, {
+		"name": "abc2",
+		"source": "mumbai",
+		"destination": "delhi",
+		"time": "10.40AM",
+		"seatsAvail": "20"
+	}, {
+		"name": "abc3",
+		"source": "mumbai",
+		"destination": "delhi",
+		"time": "10.50AM",
+		"seatsAvail": "10"
+	}, {
+		"name": "abc4",
+		"source": "mumbai",
+		"destination": "delhi",
+		"time": "11.30AM",
+		"seatsAvail": "15"
+	}, {
+		"name": "abc5",
+		"source": "mumbai",
+		"destination": "delhi",
+		"time": "12.30AM",
+		"seatsAvail": "25"
+	}]
+}

@@ -1,0 +1,5 @@
+applications:
+- name: busRegist
+  memory: 16M
+  host: Ct_rakeshb2
+buildpack: staticfile_buildpack

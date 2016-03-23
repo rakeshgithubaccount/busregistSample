@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+   <body>
+         <div class="col-lg-12 coloumnPanel" id="coloumnPanel9">
+       <div ng-controller="ShowAvailableBuses">
+           <br/>
+          <div class="panel panel-primary">
+               <div class="panel-heading">
+                  Search Results
+               </div>
+               <div class="panel-body">
+                
+                  <br/>
+                  <table class="table">
+                     <thead>
+                        <tr>
+                           <th>Bus ID</th>
+                            <th>Bus Type</th>
+                           <th>Source</th>
+                           <th>Destination</th>                           
+                           <th>No. Of Seats Available</th>
+                            <th>Cost(In INR)</th>
+                        </tr>
+                     </thead>
+                     <tr ng-repeat="x in listOfBuses" >
+                        <td>{{ x.busId }}</td>
+                         <td>{{ x.busType }}</td>
+                        <td>{{ x.fromLocation }}</td>
+                        <td>{{ x.toDestination }}</td>
+                        <td>{{ x.numberOfSeats }}</td>
+                        <td>{{ x.price}}</td>
+                        <td><button type="button" class="btn btn-success" ng-click=book(x)>Book</button></td>
+                     </tr>
+                  </table>
+       </div></div>  </div></div>
+    </body>
+</html>
